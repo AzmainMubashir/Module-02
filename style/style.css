@@ -14,3 +14,13 @@ h2{
     text-align: center;
     color: crimson;
 }
+
+#downR{
+    display: inline-block;
+    /* float: left; */
+  }
+
+#downL{
+    display: inline-block;
+  /* float: left; */
+  }
