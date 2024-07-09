@@ -1,26 +1,141 @@
 
 *{
-    background-color: rgb(206, 169, 204);
+    /* background-color: rgb(207, 231, 150); */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: normal;
 }
 
 
-#button{
-    align-items: center; 
+.button{
+    display: flex;
     justify-content: center;
-     display: flex;
+    margin: auto;
+    border: 1 px solid black;
+    border-radius: 3px;
+    background-color: darkgoldenrod;
+    }
+
+.button > a{
+    text-decoration: none;
+    color: darkblue;
+    background-color: darkgoldenrod;
+
 }
 
 h2{
     text-align: center;
     color: crimson;
 }
+.box1{
+    background-image: url(../images/nov.jpg);
+    /* opacity: .5; */
+    background-size: cover;
+    background-color: cadetblue;
+    border: 2px solid black;
+    border-radius: 5px;
+    padding: 5px 5px;
+    box-shadow: 6px 6px rgba(4, 46, 230, 0.5);
+    }
 
-#downR{
-    display: inline-block;
-    /* float: left; */
-  }
+.box2{
+    background-image: url(../images/nature.jpg);
+    /* opacity: 1; */
+    background-size: cover;
+    background-color:aquamarine;
+    border: 2px solid black;
+    border-radius: 5px;
+    padding: 5px 5px;
+    box-shadow: 6px 6px rgba(0, 90, 0, 0.5);
+    }
+    
+.box3{
+    background-image: url(../images/nature2.jpg);
+    background-size: cover;       
+    /* opacity: .75; */
+    background-color: darkkhaki;
+    border: 2px solid black;
+    border-radius: 5px;
+    padding: 5px 5px;
+    box-shadow: 6px 6px darksalmon;
+    }
 
-#downL{
+.sept{
+    display: flex;
+    color: maroon;
+    border: 2px solid black;
+    padding: 1px 2px;
+    border-radius: 5px;
+    width: 20%;
+    justify-content: center;
+    /* margin: auto; */
+    }
+.sept:hover{
+    background-color: rgb(206, 220, 236);
+}
+
+.oct{
+    display: flex;
+    justify-content: center;
+    color: indigo;
+    border: 2px solid black;
+    padding: 1px 2px;
+    border-radius: 5px;
+    width: 18%;
+    /* margin: auto; */
+    }
+    .oct:hover{
+        background-color: rgb(140, 166, 190);
+    }
+
+.nov{
+    display: flex;
+    justify-content: center;
+    color: navy;
+    border: 2px solid black;
+    padding: 1px 2px;
+    border-radius: 5px;
+    width: 20%;
+    /* margin: auto; */
+    }
+    .nov:hover{
+        background-color: rgb(91, 122, 61);
+    }
+
+    div > p > a{
+        text-decoration: none;
+        color: black;
+    }
+
+nav > div > ul > li{
+    list-style-type: none;
+    padding: 4px;
+    }
+
+nav > div > ul > li a{
+    text-decoration: none;
+    border: 2px solid black;
+    color: black;
+    padding: 2px 2px;
+    border-radius: 3px;
+    }
+
+nav > div > ul > li a:hover{
+    background-color: coral;
+}
+
+nav > div > ul{
+    display: flex;
+}
+
+nav > div{
+    display: flex;
     display: inline-block;
-  /* float: left; */
-  }
+}
+main > div > img{
+    /* display: block; */
+    /* margin: auto; */
+    margin-left: 5px;
+    margin-bottom: 5px;
+    border-radius: 4px;
+    box-shadow: 4px 4px sandybrown;
+}
